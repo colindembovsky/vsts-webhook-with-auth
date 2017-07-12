@@ -6,6 +6,7 @@ using System.Web;
 using Microsoft.AspNet.WebHooks.Payloads;
 using System.Threading.Tasks;
 using System.Diagnostics;
+using System.Web.Http;
 
 namespace vsts_webhook_with_auth.Handlers
 {
