@@ -19,6 +19,8 @@ namespace vsts_webhook_with_auth
 				routeTemplate: "api/{controller}/{id}",
 				defaults: new { id = RouteParameter.Optional }
 			);
+
+			config.InitializeReceiveVstsWebHooks();
 		}
 	}
 }
